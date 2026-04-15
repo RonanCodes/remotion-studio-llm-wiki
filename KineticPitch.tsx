@@ -183,9 +183,9 @@ const Scene1Input: React.FC = () => {
               left: "50%",
               transform: "translate(-50%, -50%)",
               opacity: subOpacity,
-              fontSize: 36,
-              color: "#aaa",
-              fontWeight: 500,
+              fontSize: 44,
+              color: "#ddd",
+              fontWeight: 600,
             }}
           >
             How many can you recall?
@@ -454,11 +454,11 @@ const SOURCE_TYPES = [
 ];
 
 const WIKI_PAGES = [
-  "andrej-karpathy.md",
-  "llm-operating-system.md",
-  "attention-mechanism.md",
-  "scaling-laws.md",
-  "rlhf-overview.md",
+  "claude-code.md",
+  "agentic-engineering.md",
+  "ralph-loop.md",
+  "mcp-overview.md",
+  "vibe-coding.md",
 ];
 
 const Scene4Flow: React.FC = () => {
@@ -910,7 +910,7 @@ const Scene6CTA: React.FC = () => {
 // ---------------------------------------------------------------------------
 // Scene timeline constants (for TransitionSeries)
 // ---------------------------------------------------------------------------
-const SCENE1_DUR = 180;
+const SCENE1_DUR = 210;
 const SCENE2_DUR = 160;
 const SCENE3_DUR = 150;
 const SCENE4_DUR = 180;
